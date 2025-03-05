@@ -1,0 +1,150 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Header */
+.homeheader {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.homeheader h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Content Section */
+.homecontent {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.homecontent p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.success h3 {
+    color: #4CAF50;
+}
+
+/* To-Do List Section */
+.todo h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.todo form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-field:focus {
+    border-color: #4CAF50;
+}
+
+.date-input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.date-input:focus {
+    border-color: #4CAF50;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Task List Styling */
+.scroll {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.scroll li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scroll li a {
+    text-decoration: none;
+    color: #f44336;
+    font-size: 1.2em;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+.scroll li a:hover {
+    color: #d32f2f;
+}
+
+/* Status Styling */
+.scroll li a:nth-child(1) {
+    color: #4CAF50;
+    font-size: 1.2em;
+}
+
+.scroll li a:nth-child(1):hover {
+    color: #388e3c;
+}
+
+/* Counter Line */
+.counter {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+}
